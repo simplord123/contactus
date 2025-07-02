@@ -43,21 +43,6 @@ li a:hover,
 li a:focus{
     color: whitesmoke;
 }
-summary{
-    color: rgb(255, 72, 72);
-    font-weight: bold;
-}
-table{
-    border: 1px solid white;
-    text-align: center;
-    width: 96%;
-    margin: auto;
-}
-td{
-    border: 1px solid white;
-    text-align: center;
-    margin: 2rem;
-}
 a {
     color: #47acff;
     font-weight: bold;
@@ -67,9 +52,6 @@ a:hover{
 }
 footer{
     padding-bottom: 3rem;
-}
-aside,summary:hover{
-    color: whitesmoke;
 }
 img{
     border-radius: 1%;

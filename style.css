@@ -17,6 +17,7 @@ body{
     width: 100%;
     margin: auto;
     min-height: 100vh;
+    align-items: center;
 }
 header{
     padding-top: 1rem;
@@ -74,20 +75,24 @@ img{
     border-radius: 1%;
     border: 3px double white;
     box-shadow: 5px 5px 5px black;
-    margin: auto;
+    width: 96%;
+    height: auto;
 }
 label,legend{
     margin-left: 2rem;
     margin-top: 2rem;
-}
-fieldset{
-    margin-right: 0.5rem;
 }
 textarea{
     margin-left: 2rem;
     text-shadow: none;
     padding-left: 0.75rem;
     padding-top: 0.5rem;
+}
+input{
+    text-shadow: none;
+}
+fieldset{
+    width: 96%;
 }
 .button1{
     margin-left: 2rem;
@@ -113,8 +118,4 @@ button:focus{
     border: 1px solid black;
     border-radius: 5px;
     font-weight: bolder;
-}
-input{
-    text-shadow: none;
-    padding-left: 0.5rem;
 }
